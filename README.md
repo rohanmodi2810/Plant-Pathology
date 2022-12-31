@@ -1,1 +1,2 @@
 # Plant-Pathology
+Accurately detects various foliar diseases from a given plant leaf image. It is a multi-label classification problem, which meant each image could belong to zero or more disease categories. Developed three Convolutional Neural Network models which were fine-tuned on pre-trained EfficientNetB7 and DenseNet201 models and then ensembled them to predict the class labels. Tensorflow and Keras were used for data preprocessing, data augmentation and model training. The trained model achieved a Mean F1-score of 0.813.
